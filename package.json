@@ -1,0 +1,33 @@
+{
+  "name": "couchbase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@kubernetes/client-node": "^0.17.0",
+    "@mittwald/kubernetes": "^3.4.2",
+    "cassandra-driver": "^4.6.4",
+    "couchbase": "^4.1.2",
+    "easy-soap-request": "^5.1.0",
+    "ftp": "^0.3.10",
+    "ibm_db": "^2.8.2",
+    "js-base64": "^3.7.2",
+    "node-jt400": "^4.4.1",
+    "nodemon": "^2.0.19",
+    "oracledb": "^5.4.0",
+    "redis": "^4.2.0",
+    "shelljs": "^0.8.5",
+    "simple-xml-to-json": "^1.0.9",
+    "soap": "^0.45.0",
+    "ssh2-sftp-client": "^9.0.3",
+    "superagent": "^8.0.0",
+    "xml-decoder": "^0.1.4",
+    "xml-js": "^1.6.11"
+  }
+}
